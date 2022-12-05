@@ -13,11 +13,11 @@ int main() {
     awal:
     cout<< "\t=============================================="<<endl;
     cout<< "\t                 TUGAS AKHIR                  "<<endl;
-    cout<< "\t KONVERSI SUHU & MENGHITUNG LUAS BANGUN RUANG "<<endl;
+    cout<< "\t KONVERSI SUHU & MENGHITUNG LUAS BANGUN DATAR "<<endl;
     cout<< "\t=============================================="<<endl;
     //pilih program yang mau dijalankan
     cout<<"1. Konversi Suhu\n";
-    cout<<"2. Menghitung Luas Bangun Ruang\n";
+    cout<<"2. Menghitung Luas Bangun Datar\n";
     cout<< "Pilih Program : ";
     cin>> pilihan;
     //switch case untuh memilih jenis program
@@ -173,16 +173,16 @@ int main() {
     case ('2') :
     //Program Menghitung Luas Bangun Ruang
         cout<<"============================\n";
-        cout<<"Menghitung Luas Bangun Ruang\n";
+        cout<<"Menghitung Luas Bangun Datar\n";
         cout<<"============================\n";
     //pilihan bangun ruang yang akan di jalan kan 
         cout<<"1. Segitiga\n";
         cout<<"2. Persegi\n";
         cout<<"3. Persegi Panjang\n";
         cout<<"4. LIngkaran\n";
-        cout<<"Pilih Bangun Ruang : ";
+        cout<<"Pilih Bangun Datar : ";
         cin>> pilih_bangun;
-    //if else untuk memilih jenis bangun ruang
+    //if else untuk memilih jenis bangun Datar
     if (pilih_bangun ==('1'))
     {
         //memasukan variabel
@@ -190,7 +190,7 @@ int main() {
         cin>> alas;
         cout<<"Masukan Tinggi : ";
         cin>> tinggi;
-        //rumus menghitung luas bangun ruang
+        //rumus menghitung luas bangun datar
         luas = (alas*tinggi)*0.5;
         cout<<"Luas segitiga adalah : "<<luas<<endl;
         cout << "Ingin diulang? (y/n) ";cin>>y;
