@@ -5,7 +5,7 @@ using namespace std;
 int main() {
     //deklarasi
     //double untuk bilangan desimal 16bit
-    double celcius, fahrenheit, kelvin, reamur, rankine, sisi, panjang, tinggi, lebar, alas, luas, r;
+    double celcius, fahrenheit, kelvin, reamur, rankine, sisi, panjang, tinggi, lebar, alas, luas, r, d1, d2;
     //char untuk satu buah karakter
     char pilihan, pilih_suhu, pilih_bangun, y;
     const double phi = 3.14;
@@ -179,7 +179,10 @@ int main() {
         cout<<"1. Segitiga\n";
         cout<<"2. Persegi\n";
         cout<<"3. Persegi Panjang\n";
-        cout<<"4. LIngkaran\n";
+        cout<<"4. Lingkaran\n";
+        cout<<"5. Layang Layang\n";
+        cout<<"6. Jajar Genjang\n";
+        cout<<"7. Trapesium\n";
         cout<<"Pilih Bangun Datar : ";
         cin>> pilih_bangun;
     //if else untuk memilih jenis bangun Datar
@@ -232,7 +235,7 @@ int main() {
 
         luas = panjang*lebar;
         cout<<"Luas persegi panjang adalah : "<<luas<<endl;
-        cout << "Ingin diulang? (y/n) ";cin>>y;   
+        cout<< "Ingin diulang? (y/n) ";cin>>y;   
             if (y=='y')
             {
                 system("cls");
@@ -240,9 +243,7 @@ int main() {
             }
             else{
                 
-            }
-            
-        
+            }    
     }
 
     else if (pilih_bangun == ('4'))
@@ -252,7 +253,7 @@ int main() {
 
         luas = phi*r*r;
         cout<<"Luas lingkaran adalah : "<<luas<<endl;
-        cout << "Ingin diulang? (y/n) ";cin>>y;
+        cout<< "Ingin diulang? (y/n) ";cin>>y;
             if (y=='y')
             {
                 system("cls");
@@ -263,7 +264,26 @@ int main() {
             }
 
     }  
-        
+
+    else if (pilih_bangun == ('5'))
+    {
+        cout<<"Masukan Diagonal 1 : ";
+        cin>>d1;
+        cout<<"Masukan diagonal 2 : ";
+        cin>>d2;
+
+        luas = 0.5*(d1*d2);
+        cout<<"Luas layang-layang adalah"<<luas<<endl;
+        cout<<"Ingin diulang? (y/n) ";
+            if (y == 'y')
+            {   
+                system("cls");
+                goto awal;
+            }
+            else{
+                
+            }
+    }    
         
         
         
