@@ -5,7 +5,7 @@ using namespace std;
 int main() {
     //deklarasi
     //double untuk bilangan desimal 16bit
-    double celcius, fahrenheit, kelvin, reamur, rankine, sisi, panjang, tinggi, lebar, alas, luas, r, d1, d2;
+    double celcius, fahrenheit, kelvin, reamur, rankine, sisi, panjang, tinggi, lebar, alas, luas, r, d1, d2, a, b;
     //char untuk satu buah karakter
     char pilihan, pilih_suhu, pilih_bangun, y;
     const double phi = 3.14;
@@ -273,19 +273,60 @@ int main() {
         cin>>d2;
 
         luas = 0.5*(d1*d2);
-        cout<<"Luas layang-layang adalah"<<luas<<endl;
-        cout<<"Ingin diulang? (y/n) ";
+        cout<<"Luas layang-layang adalah : "<<luas<<endl;
+        cout<<"Ingin diulang? (y/n) ";cin>>y;
             if (y == 'y')
             {   
                 system("cls");
                 goto awal;
             }
             else{
-                
+
             }
     }    
-        
-        
+    
+    else if (pilih_bangun == ('6'))
+    {
+        cout<<"Masukan Alas : ";
+        cin>>alas;
+        cout<<"Masukan Tinggi : ";
+        cin>>tinggi;
+
+        luas = alas*tinggi;
+        cout<<"Luas jajar genjang adalah : "<<luas<<endl;
+        cout<<"Ingin diulang? (y/n) ";cin>>y;   
+            if (y == 'y')
+            {   
+                system("cls");
+                goto awal;
+            }
+            else{
+
+            }
+
+    }
+
+    else if (pilih_bangun == ('7'))
+    {
+        cout<<"Masukan Sisi Atas : ";
+        cin>>a;
+        cout<<"Masukan Sisi Bawah : ";
+        cin>>b;
+        cout<<"Masukan Tinggi : ";
+        cin>>tinggi;
+
+        luas = 0.5*(a+b)*tinggi;
+        cout<<"Luas Trapesium adalah : "<<luas<<endl;
+        cout << "Ingin diulang? (y/n) ";cin>>y;
+            if (y=='y')
+            {
+                system("cls");
+                goto awal;
+            }
+            else{
+                
+            }  
+    }    
         
         
         
