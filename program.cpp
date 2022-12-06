@@ -5,10 +5,10 @@ using namespace std;
 int main() {
     //deklarasi
     //double untuk bilangan desimal 16bit
-    double celcius, fahrenheit, kelvin, reamur, rankine, sisi, panjang, tinggi, lebar, alas, luas;
+    double celcius, fahrenheit, kelvin, reamur, rankine, sisi, panjang, tinggi, lebar, alas, luas, r;
     //char untuk satu buah karakter
     char pilihan, pilih_suhu, pilih_bangun, y;
-    const int phi = 3.14;
+    const double phi = 3.14;
     //awal untuk mengulang program
     awal:
     cout<< "\t=============================================="<<endl;
@@ -171,11 +171,11 @@ int main() {
     
     
     case ('2') :
-    //Program Menghitung Luas Bangun Ruang
+    //Program Menghitung Luas Bangun Datar
         cout<<"============================\n";
         cout<<"Menghitung Luas Bangun Datar\n";
         cout<<"============================\n";
-    //pilihan bangun ruang yang akan di jalan kan 
+    //pilihan bangun datar yang akan di jalan kan 
         cout<<"1. Segitiga\n";
         cout<<"2. Persegi\n";
         cout<<"3. Persegi Panjang\n";
@@ -244,7 +244,25 @@ int main() {
             
         
     }
-        
+
+    else if (pilih_bangun == ('4'))
+    {
+        cout<<"Masukan Jari Jari : ";
+        cin>>r;
+
+        luas = phi*r*r;
+        cout<<"Luas lingkaran adalah : "<<luas<<endl;
+        cout << "Ingin diulang? (y/n) ";cin>>y;
+            if (y=='y')
+            {
+                system("cls");
+                goto awal;
+            }
+            else{
+                
+            }
+
+    }  
         
         
         
