@@ -12,8 +12,8 @@ int main() {
     //awal untuk mengulang program
     awal:
     cout<< "\t=============================================="<<endl;
-    cout<< "\t                 TUGAS AKHIR                  "<<endl;
-    cout<< "\t KONVERSI SUHU & MENGHITUNG LUAS BANGUN DATAR "<<endl;
+    cout<< "\t|                 TUGAS AKHIR                | "<<endl;
+    cout<< "\t|KONVERSI SUHU & MENGHITUNG LUAS BANGUN DATAR| "<<endl;
     cout<< "\t=============================================="<<endl;
     //pilih program yang mau dijalankan
     cout<<"1. Konversi Suhu\n";
