@@ -15,6 +15,14 @@ int main() {
     cout<< "\t|         SELAMAT DATANG DI PROGRAM          | "<<endl;
     cout<< "\t|KONVERSI SUHU & MENGHITUNG LUAS BANGUN DATAR| "<<endl;
     cout<< "\t=============================================="<<endl;
+    cout<< "\t|           DIBUAT OLEH KELOMPOK 4           |"<<endl;
+    cout<<"\t|                                            |"<<endl;
+    cout<<"\t|     Ayuni Aulia Prihatini    065122003     |"<<endl;
+    cout<<"\t|     Nasywa Aura Permata Hati 065122004     |"<<endl;
+    cout<<"\t|     Helena Octaviana         065122005     |"<<endl;
+    cout<<"\t|     Kaka Maulana             065122029     |"<<endl;
+    cout<<"\t|     Nicola Dohara Maloky     065122030     |"<<endl;
+    cout<< "\t=============================================="<<endl;
     //pilih program yang mau dijalankan
     cout<<"1. Konversi Suhu\n";
     cout<<"2. Menghitung Luas Bangun Datar\n";
