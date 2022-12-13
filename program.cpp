@@ -11,11 +11,11 @@ int main() {
     const double phi = 3.14;
     //awal untuk mengulang program
     awal:
-    cout<< "\t=============================================="<<endl;
-    cout<< "\t|         SELAMAT DATANG DI PROGRAM          | "<<endl;
-    cout<< "\t|KONVERSI SUHU & MENGHITUNG LUAS BANGUN DATAR| "<<endl;
-    cout<< "\t=============================================="<<endl;
-    cout<< "\t|           DIBUAT OLEH KELOMPOK 4           |"<<endl;
+    cout<<"\t=============================================="<<endl;
+    cout<<"\t|         SELAMAT DATANG DI PROGRAM          | "<<endl;
+    cout<<"\t|KONVERSI SUHU & MENGHITUNG LUAS BANGUN DATAR| "<<endl;
+    cout<<"\t=============================================="<<endl;
+    cout<<"\t|           DIBUAT OLEH KELOMPOK 4           |"<<endl;
     cout<<"\t|                                            |"<<endl;
     cout<<"\t|     Ayuni Aulia Prihatini    065122003     |"<<endl;
     cout<<"\t|     Nasywa Aura Permata Hati 065122004     |"<<endl;
