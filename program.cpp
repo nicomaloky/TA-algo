@@ -12,7 +12,7 @@ int main() {
     //awal untuk mengulang program
     awal:
     cout<< "\t=============================================="<<endl;
-    cout<< "\t|                 TUGAS AKHIR                | "<<endl;
+    cout<< "\t|         SELAMAT DATANG DI PROGRAM          | "<<endl;
     cout<< "\t|KONVERSI SUHU & MENGHITUNG LUAS BANGUN DATAR| "<<endl;
     cout<< "\t=============================================="<<endl;
     //pilih program yang mau dijalankan
@@ -24,6 +24,7 @@ int main() {
     switch (pilihan)
     {
     case ('1'):
+        system("cls");
     //Program Konversi Suhu
         cout<<"\t=================\n";
         cout<<"\t  Konversi Suhu\n  ";
@@ -38,7 +39,7 @@ int main() {
         cin >>pilih_suhu;
     //If else untuk memilih jenis suhu
     if ( pilih_suhu == ('1'))
-    {
+    {   system("cls");
         cout<<"\t=================\n";
         cout<<"\t Konversi Celcius\n  ";
         cout<<"\t=================\n";
@@ -69,7 +70,10 @@ int main() {
     
 
     else if(pilih_suhu == ('2'))
-    {
+    {   system("cls");
+        cout<<"\t===================\n";
+        cout<<"\tKonversi Fahrenheit\n  ";
+        cout<<"\t===================\n";
         cout<< "masukan suhu fahrenheit : ";
 		cin>> fahrenheit;
 
@@ -94,7 +98,10 @@ int main() {
     }
     
     else if (pilih_suhu == ('3'))
-    {
+    {   system("cls");
+        cout<<"\t=================\n";
+        cout<<"\t Konversi Kelvin\n  ";
+        cout<<"\t=================\n";
         cout<< "masukan suhu kelvin : ";
 		cin>> kelvin;
 
@@ -119,7 +126,10 @@ int main() {
     }
 
     else if (pilih_suhu == ('4'))
-    {
+    {   system("cls");
+        cout<<"\t=================\n";
+        cout<<"\t Konversi Reamur\n  ";
+        cout<<"\t=================\n";
         cout<< "masukan suhu reamur : ";
 	    cin>> reamur;
 
@@ -144,7 +154,10 @@ int main() {
     }
 
     else if (pilih_suhu ==('5'))
-    {
+    {   system("cls");
+        cout<<"\t=================\n";
+        cout<<"\t Konversi Rankine\n  ";
+        cout<<"\t=================\n";
         cout<< "masukan suhu rankine : ";
 		cin>> rankine;
 
@@ -167,14 +180,29 @@ int main() {
                 
             }
     }
+    else
+    {
+        cout<<"Pilihan Tidak Ada\n";
+        cout << "Ingin diulang? (y/n) ";cin>>y;
+            if (y=='y')
+            {
+                system("cls");
+                goto awal;
+            }
+            else{
+                
+            }
+    }
+    
     break;
     
     
     case ('2') :
+        system("cls");
     //Program Menghitung Luas Bangun Datar
-        cout<<"============================\n";
-        cout<<"Menghitung Luas Bangun Datar\n";
-        cout<<"============================\n";
+        cout<<"\t============================\n";
+        cout<<"\tMenghitung Luas Bangun Datar\n";
+        cout<<"\t============================\n";
     //pilihan bangun datar yang akan di jalan kan 
         cout<<"1. Segitiga\n";
         cout<<"2. Persegi\n";
@@ -187,7 +215,10 @@ int main() {
         cin>> pilih_bangun;
     //if else untuk memilih jenis bangun Datar
     if (pilih_bangun ==('1'))
-    {
+    {   system("cls");
+        cout<<"\t=================\n";
+        cout<<"\t  Luas Segitiga \n ";
+        cout<<"\t=================\n";
         //memasukan variabel
         cout<<"Masukan Alas : ";
         cin>> alas;
@@ -209,7 +240,10 @@ int main() {
     }
         
     else if (pilih_bangun == ('2'))
-    {
+    {   system("cls");
+        cout<<"\t=================\n";
+        cout<<"\t  Luas Persegi \n  ";
+        cout<<"\t=================\n";
         cout<<"Masukan Panjang Sisi : ";
         cin>> sisi;
 
@@ -227,7 +261,10 @@ int main() {
     }   
         
     else if (pilih_bangun == ('3'))
-    {
+    {   system("cls");
+        cout<<"\t======================\n";
+        cout<<"\t Luas Persegi Panjang\n ";
+        cout<<"\t======================\n";
         cout<<"Masukan Panjang : ";
         cin>> panjang;
         cout<<"Masukan Lebar : ";
@@ -247,7 +284,10 @@ int main() {
     }
 
     else if (pilih_bangun == ('4'))
-    {
+    {   system("cls");
+        cout<<"\t======================\n";
+        cout<<"\t    Luas Lingkaran   \n ";
+        cout<<"\t======================\n";
         cout<<"Masukan Jari Jari : ";
         cin>>r;
 
@@ -266,7 +306,10 @@ int main() {
     }  
 
     else if (pilih_bangun == ('5'))
-    {
+    {   system("cls");
+        cout<<"\t======================\n";
+        cout<<"\t  Luas Layang-Layang \n ";
+        cout<<"\t======================\n";
         cout<<"Masukan Diagonal 1 : ";
         cin>>d1;
         cout<<"Masukan diagonal 2 : ";
@@ -286,7 +329,10 @@ int main() {
     }    
     
     else if (pilih_bangun == ('6'))
-    {
+    {   system("cls");
+        cout<<"\t======================\n";
+        cout<<"\t  Luas Jajar Genjang \n ";
+        cout<<"\t======================\n";
         cout<<"Masukan Alas : ";
         cin>>alas;
         cout<<"Masukan Tinggi : ";
@@ -307,7 +353,10 @@ int main() {
     }
 
     else if (pilih_bangun == ('7'))
-    {
+    {   system("cls");
+        cout<<"\t======================\n";
+        cout<<"\t    Luas Trapesium    \n ";
+        cout<<"\t======================\n";
         cout<<"Masukan Sisi Atas : ";
         cin>>a;
         cout<<"Masukan Sisi Bawah : ";
