@@ -1,4 +1,4 @@
-#include<iostream>
+#include <iostream>
 
 using namespace std;
 
@@ -10,6 +10,7 @@ int main() {
     char pilihan, pilih_suhu, pilih_bangun, y;
     const double phi = 3.14;
     //awal untuk mengulang program
+
     awal:
     cout<<"\t=============================================="<<endl;
     cout<<"\t|         SELAMAT DATANG DI PROGRAM          | "<<endl;
@@ -22,7 +23,7 @@ int main() {
     cout<<"\t|     Helena Octaviana         065122005     |"<<endl;
     cout<<"\t|     Kaka Maulana             065122029     |"<<endl;
     cout<<"\t|     Nicola Dohara Maloky     065122030     |"<<endl;
-    cout<< "\t=============================================="<<endl;
+    cout<<"\t=============================================="<<endl;
     //pilih program yang mau dijalankan
     cout<<"1. Konversi Suhu\n";
     cout<<"2. Menghitung Luas Bangun Datar\n";
@@ -302,7 +303,7 @@ int main() {
         luas = phi*r*r;
         cout<<"Luas lingkaran adalah : "<<luas<<endl;
         cout<< "Ingin diulang? (y/n) ";cin>>y;
-            if (y=='y')
+            if  (y=='y')
             {
                 system("cls");
                 goto awal;
@@ -402,6 +403,5 @@ int main() {
             }
     break;
     }
-
 
 }
