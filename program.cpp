@@ -1,4 +1,4 @@
-#include <iostream>
+#include <iostream> //header atau library
 
 using namespace std;
 
@@ -9,8 +9,8 @@ int main() {
     //char untuk satu buah karakter
     char pilihan, pilih_suhu, pilih_bangun, y;
     const double phi = 3.14;
+    
     //awal untuk mengulang program
-
     awal:
     cout<<"\t=============================================="<<endl;
     cout<<"\t|         SELAMAT DATANG DI PROGRAM          | "<<endl;
