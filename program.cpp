@@ -65,7 +65,7 @@ int main() {
     		cout << celcius << " C = " << rankine 	 <<	" Ra\n";
            //untuk mengulang program atau tidak
             cout << "Ingin diulang? (y/n) ";cin>>y;
-            if (y=='y')
+            if (y=='y' || 'Y')
             {
             //untuk clear program supaya rapih
                 system("cls");
